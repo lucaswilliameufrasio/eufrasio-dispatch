@@ -8,9 +8,9 @@ publish = false
 serde = { version = "1", features = ["derive"] }
 toasty = { version = "0.8", features = ["sqlite"] }
 tokio = { version = "1", features = ["macros", "rt-multi-thread", "sync"] }
-topcoat = { version = "0.9", features = ["tailwind"] }
+topcoat = { version = "0.10", features = ["tailwind"] }
 rusqlite = "0.39"
 uuid = { version = "1.23", features = ["v7"] }
 
 [build-dependencies]
-topcoat = { version = "0.9", default-features = false, features = ["tailwind"] }
+topcoat = { version = "0.10", default-features = false, features = ["tailwind"] }
